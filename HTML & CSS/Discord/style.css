@@ -1,0 +1,330 @@
+.menu {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+}
+
+.menu a {
+    float: left;
+    font-size: smaller;
+    margin: 0px;
+    padding: 2px;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-family: Arial;
+    color: gray;
+}
+
+.menu a:hover {
+    color: gainsboro;
+}
+
+html {
+    background: #202225;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 21px;
+    padding-top: 10px;
+}
+
+#logo {
+    width: 126px;
+    height: 36px;
+}
+
+.menu .menu-right {
+    margin-left: 270px;
+    overflow: hidden;
+}
+
+#Open {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid gray;
+    border-radius: 50px;
+}
+
+#Open:hover {
+    border-color: gainsboro;
+}
+
+.menulist {
+    float: left;
+    overflow: hidden;
+}
+
+.list-shwn {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+}
+
+.list-shwn a {
+    float: none;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.list-shwn a:hover {
+    background-color: white;
+    color: gray;
+}
+
+.menulist:hover .list-shwn {
+    display: block;
+}
+
+#social {
+    float: right;
+    padding-left: -5px;
+    width: 20px;
+    height: 20px;
+    padding-top: 0px;
+}
+
+.msg {
+    color: white;
+    display: inline;
+    overflow: hidden;
+    font-family: Arial;
+    background: #3c3c3c;
+    padding-bottom: -5px;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 170px;
+    border-radius: 5px;
+}
+
+.texto {
+    text-align: center;
+    font-family: Verdana;
+}
+
+.principal {
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.secundario {
+    font-size: 15px;
+    margin-top: 10px;
+    color: gray
+}
+
+.btn {
+    font-family: Arial;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    top: 325px;
+}
+
+.btn a {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.download {
+    margin-left: 400px;
+    color: gray;
+    background: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.webapp {
+    margin-left: 30px;
+    color: white;
+    background: cornflowerblue;
+}
+
+#PC {
+    position: absolute;
+    top: 500px;
+    left: 350px;
+}
+
+#Squarephone {
+    position: absolute;
+    top: 715px;
+    left: 100px;
+}
+
+#Roundphone {
+    position: absolute;
+    top: 720px;
+    left: 250px;
+}
+
+#Controller {
+    position: absolute;
+    top: 860px;
+    left: 400px;
+}
+
+#Notebook {
+    position: absolute;
+    top: 620px;
+    left: 640px;
+}
+
+#Disc {
+    position: absolute;
+    top: 865px;
+    left: 1070px;
+}
+
+#Phone {
+    position: absolute;
+    top: 605px;
+    left: 920px;
+    width: 110px;
+    height: 180px;
+}
+
+#Potion {
+    position: absolute;
+    top: 770px;
+    left: 50px;
+}
+
+#Luckblock {
+    position: absolute;
+    top: 430px;
+    left: 400px;
+}
+
+#Bomb {
+    position: absolute;
+    top: 535px;
+    left: 170px;
+    animation: bomba 2s infinite;
+}
+
+#Coin1 {
+    position: absolute;
+    top: 565px;
+    left: 230px;
+    animation: moeda1 3s infinite;
+}
+
+#Coin2 {
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    animation: moeda2 3s infinite;
+}
+
+#Folder {
+    position: absolute;
+    top: 490px;
+    left: 900px;
+    animation: folder 3s infinite;
+}
+
+.Footer {
+    position: absolute;
+    top: 1100px;
+    margin-left: 140px;
+    font-family: Arial;
+}
+
+#icon {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+}
+
+.Footer-menu {
+    vertical-align: top;
+    font-size: small;
+    margin-left: 100px;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.Footer-menulist a {
+    padding-top: 5px;
+    color: gray;
+    text-decoration: none;
+    display: block;
+}
+
+.Footer-menulist a:hover {
+    color: gainsboro;
+}
+
+.Footer-menu .Footer-menulist {
+    padding-top: 10px;
+    display: block;
+}
+
+.Separador {
+    position: absolute;
+    top: 200px;
+    color: gray;
+}
+
+.Footerh1 {
+    position: absolute;
+    top: 250px;
+    font-family: Arial;
+    color: gainsboro;
+    font-size: 25px;
+}
+
+.Footerh2 {
+    position: absolute;
+    top: 280px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    font-size: 15px;
+}
+
+.Footer .btn {
+    position: absolute;
+    top: 265px;
+    left: 714px;
+    margin-bottom: 50px;
+}
+
+@keyframes bomba {
+    50% {
+        top: 545px;
+    }
+}
+
+@keyframes moeda1 {
+    50% {
+        top: 575px;
+    }
+}
+
+@keyframes moeda2 {
+    50% {
+        top: 410px;
+    }
+}
+
+@keyframes folder {
+    50% {
+        top: 500px;
+    }
+}

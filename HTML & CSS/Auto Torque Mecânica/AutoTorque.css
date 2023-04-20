@@ -1,0 +1,57 @@
+#header {
+    height: 100px;
+    background-color: black;
+    padding: 15px;
+    border: 1px #666;
+}
+
+#logo {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+#header-menu {
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    left: 600px;
+    margin-left: 30px;
+}
+
+#header-menu:hover {
+    opacity: 80%;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+figure {
+    height: 330px;
+    width: 270px;
+    margin: 0 30px 0 30px;
+    display: inline-block;
+}
+figcaption{
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgba(230,0,8,0.68);
+}
