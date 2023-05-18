@@ -1,3 +1,3 @@
 # Welcome 
 
-This is a repo for my little scripts, codes, etc.
+This is a little repo for my scripts, codes, etc.
