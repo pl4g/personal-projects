@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>OptiFine</title>
+    <link rel="shortcut icon" href="https://optifine.net/images/grass.ico">
+    <style>
+        .header {
+            margin: 2px;
+            color: rgb(100, 128, 255);
+            padding-left: 16px;
+            font-size: 300%;
+            background-color: #232323;
+        }
+        
+        .body {
+            border: 1px solid rgb(128, 128, 128);
+            width: 850px;
+            margin: 0 auto;
+            background: rgb(4, 115, 4);
+            background: linear-gradient(0deg, rgba(4, 115, 4, 1) 0%, rgba(87, 9, 140, 1) 51%, rgba(87, 9, 140, 1) 59%);
+        }
+        
+        .menu {
+            line-height: 175%;
+            color: rgb(100, 128, 255);
+            margin: 2px;
+            margin-top: 0px;
+            text-align: left;
+            background: #232323;
+            border-width: 0px;
+        }
+        
+        .menu_item {
+            padding-left: 16px;
+        }
+        
+        .menu_item:hover {
+            text-decoration: underline;
+        }
+        
+        li strong {
+            line-height: 200%;
+        }
+        
+        .content {
+            padding-top: 10px;
+            padding-left: 16px;
+        }
+        
+        .content a {
+            color: rgb(100, 128, 255);
+        }
+        
+        .footer a {
+            color: #00007f;
+        }
+        
+        body {
+            color: #f5f5f5;
+            font-family: arial, helvetica, sans-serif;
+            background-image: url("https://c.wallhere.com/photos/05/a4/Mojang_video_games_Minecraft-1620813.jpg!d");
+            background-position: top;
+            background-size: 363%;
+        }
+        
+        div {
+            border-spacing: 2px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: unset;
+        }
+        
+        .footer {
+            font-size: small;
+            text-align: right;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div class="header"><a href="https://optifine.net/home">OptiFine</a></div>
+        <div class="menu">
+            <a href="https://optifine.net/home" class="menu_item">Home</a>
+            <a href="https://optifine.net/downloads" class="menu_item">Downloads</a>
+            <a href="https://optifine.net/donate" class="menu_item">Donate</a>
+            <a href="https://optifine.net/capeChange?__cf_chl_jschl_tk__=91014be9585662e5d4a766d64d8ff85f13ba617d-1591812188-0-ARRUB1wl7-hXPbWLh-IXbHs6H5vtQoz49BylFpAd4DmhGVokqoR2KEmoCD_3-cchG_QO5eBwxCjcHSo6d7M7C-rbWmCOMCwasK9VJK72cJ5oYtG0ZcfKyEWI3W-nVcQ2RjEvUdk7njOPbw-n8qSt6_R1vUqF1HDrRRYdpNBR1-fpF65jz8YY9xb4bRd5cKXuxhjBGVvycDln0lk7wyumR-8cfauJVBg6K8wMFtIbkaQpIHJUmaA1MYK5DIt4RYyJxuYkfuEhkqgPPurNVTlJUKAMbkIpeIpu21ZW892JDg_x"
+                class="menu_item">Cape</a>
+            <a href="https://optifine.net/login?__cf_chl_jschl_tk__=310c27d3f68bb5fe3a68121910ab984a7784ee86-1591812187-0-Aa-E-6O0pL3vhejef4_V2Ax2uNq5wmxhuahU-c_HN-qTAF5EcdzD2DJAi7eW0s02TfWgsKWQX-8d7EgBD-4Olc440n1vzCW6s9IaOEgk4z1i707FgF8INnIAnxs7khQKAbIReZ3QtGF35L7l6vgcHF_auhNpHpHsfIXeWdmnru6yC61m2peqn09wbyyd6u7v88cdq14-YAF0uD0MCYjfZCkyMU8VLmB_nAaev-Epaa-i7cg-eSFHeH1XZVSovrnAWWjMXokbZ12xT5p7mPZNKnU"
+                class="menu_item">Login</a>
+            <a href="https://optifine.net/faq" class="menu_item">FAQ</a>
+        </div>
+        <div class="content">
+            <p>OptiFine is a Minecraft optimization mod.</p>
+            <p>It allows Minecraft to run faster and look better with full support for HD textures and many configuration options.</p>
+            <p>The official OptiFine description is on the <a href="http://www.minecraftforum.net/topic/249637-">Minecraft Forums</a>.</p>
+            <p>Resources: <a href="https://github.com/sp614x/optifine/tree/master/OptiFineDoc/assets/minecraft/optifine/lang" target="_blank">translation</a>,
+                <a href="https://github.com/sp614x/optifine/tree/master/OptiFineDoc/doc" target="_blank">documentation</a>,
+                <a href="https://github.com/sp614x/optifine/issues" target="_blank">issue tracker</a>.</p>
+            <h3>Features</h3>
+            <ul>
+                <li>
+                    <strong>FPS boost</strong> (<a href='http://imgur.com/a/4NhyN#0'>examples</a>)<br> - doubling the FPS is common<br> - decreases lag spikes and smooths gameplay<br>
+                </li>
+                <li>
+                    <strong>Support for HD Textures</strong> (<a href='http://www.minecraftforum.net/topic/249637-/#HDTextures&amp;#91'>info</a>)<br> - HD textures and HD fonts (MCPatcher not needed)<br> - custom terrain and item textures
+                    <br> - animated terrain and item textures<br> - custom HD Font character widths<br> - custom colors<br> - custom block color palettes<br> - custom lighting<br> - unlimited texture size<br>
+                </li>
+                <li>
+                    <strong>Support for Shaders</strong> (<a href='http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286604-shaders-mod-updated-by-karyonix'>info</a>)<br> - based on the Shaders Mod by Karyonix<br>
+                </li>
+                <li>
+                    <strong>Dynamic Lights</strong><br> - allows handheld and dropped light emitting items to illuminate the objects around them<br> - similar, but not related to the Dynamic Lights <a href='http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272478-dynamic-lights'>mod</a><br>
+                </li>
+                <li>
+                    <strong>Variable Render Distance</strong> (<a href='http://i.imgur.com/qT3P3.png'>example</a>)<br> - from Tiny to Extreme (2 x Far) in 16m steps<br> - <a href='http://i.imgur.com/WZCmN.png'>sun</a>,
+                    <a href='http://i.imgur.com/z9hBK.png'>moon and stars</a> are visible in Tiny and Short distance<br>
+                </li>
+                <li>
+                    <strong>Configurable Smooth Lighting</strong> (<a href='http://imgur.com/a/q89Qb#0'>examples</a>)<br> - from 1% - smooth lighting without shadows<br> - to 100% - smooth lighting with full shadows<br>
+                </li>
+                <li>
+                    <strong>Performance: VSync</strong><br> Synchronizes framerate with monitor refresh rate to remove split frames and smooth gameplay<br>
+                </li>
+                <li>
+                    <strong>Smart Advanced OpenGL</strong><br> - more efficient, less artifacts<br> - Fast - faster, some artifacts still visible<br> - Fancy - slower, avoids visual artifacts<br>
+                </li>
+                <li>
+                    <strong>Fog control</strong><br> - Fog: Fancy, Fast, OFF<br> - Fog start: Near, Far<br>
+                </li>
+                <li>
+                    <strong>Mipmaps</strong> (<a href='http://imgur.com/a/7YNwh#0'>examples</a>)<br> - Visual effect which makes distant objects look better by smoothing the texture details<br> - Mipmap level - OFF, 1, 2, 3, Max<br> - Mipmap type - Nearest,
+                    Linear
+                    <br>
+                </li>
+                <li>
+                    <strong>Anisotropic Filtering</strong> (<a href='http://imgur.com/a/rtZBx#0'>examples</a>)<br> - Restores details in mipmapped textures<br> - AF level - OFF, 2, 4, 8, 16 (depends on hardware support)
+                    <br>
+                </li>
+                <li>
+                    <strong>Antialiasing</strong> (<a href='http://imgur.com/a/rtZBx#0'>examples</a>)<br> - Smooths jagged lines and sharp color transitions<br> - AA level - OFF, 2, 4, 6, 8, 12, 16 (depends on hardware support)
+                    <br>
+                </li>
+                <li>
+                    <strong>Better Grass</strong><br> Fixes grass blocks side texture to match surrounding grass terrain<br>
+                </li>
+                <li>
+                    <strong>Better Snow</strong> (<a href='http://imgur.com/a/h2yAE#0'>examples</a>, <a href='http://www.reddit.com/r/Minecraft/comments/nbtzv/shall_i_continue_with_this_simple_change/'>credit</a>)<br> Fixes transparent blocks textures
+                    to match surrounding snow terrain<br>
+                </li>
+                <li>
+                    <strong>Clear Water</strong> (<a href='http://imgur.com/a/en4Yf#0'>examples</a>)<br> Clear, transparent water with good visibility underwater<br>
+                </li>
+                <li>
+                    <strong>Random Mobs</strong><br> Use random mob textures if available in the texture pack<br>
+                </li>
+                <li>
+                    <strong>Connected Textures</strong> (<a href='http://imgur.com/a/YQz3b#0'>examples</a>)<br> Connects textures for glass, glass panes, sandstone and bookshelf blocks which are next to each other.<br>
+                </li>
+                <li>
+                    <strong>Natural Textures</strong> (<a href='http://imgur.com/a/A6ujp#0'>examples</a>, <a href='http://www.minecraftforum.net/topic/468764-'>idea</a>)<br> Removes the gridlike pattern created by repeating blocks of the same type. Uses
+                    rotated and flipped variants of the base block texture.<br>
+                </li>
+                <li>
+                    <strong>FPS control</strong><br> - Smooth FPS - stabilizes FPS by flushing the graphics driver buffers (<a href='http://imgur.com/a/QsOdl#0'>examples</a>)<br> - Smooth Input - fixes stuck keys, slow input and sound lag by setting correct
+                    thread priorities<br>
+                </li>
+                <li>
+                    <strong>Chunk Loading Control</strong><br> - Load Far - loads the world chunks at distance Far, allows fast render distance switching<br> - Preloaded Chunks - defines an area in which no new chunks will be loaded<br> - Chunk Updates
+                    per Frame - allows for faster world loading<br> - Dynamic Updates - loads more chunks per frame when the player is standing still<br>
+                </li>
+                <li>
+                    <strong>Configurable Details</strong><br> - Clouds - Default, Fast, Fancy<br> - Cloud Height - from 0% to 100%<br> - Trees - Default, Fast, Fancy<br> - Grass - Default, Fast, Fancy<br> - Water - Default, Fast, Fancy<br> - Rain and
+                    Snow - Default, Fast, Fancy<br> - Sky - ON, OFF<br> - Stars - ON, OFF<br> - Sun &amp; Moon - ON, OFF<br> - Depth Fog - ON, OFF<br> - Weather - ON, OFF<br> - Swamp Colors - ON, OFF<br> - Smooth Biomes - ON, OFF<br> - Custom Fonts -
+                    ON, OFF<br> - Custom Colors - ON, OFF<br> - Show Capes - ON, OFF (supports HD capes)<br>
+                </li>
+                <li>
+                    <strong>Configurable animations</strong><br> - Water Animated - OFF, Dynamic, ON<br> - Lava Animated - OFF, Dynamic, ON<br> - Fire Animated - OFF, ON<br> - Portal Animated - OFF, ON<br> - Redstone Animated - OFF, ON<br> - Explosion
+                    Animated - OFF, ON<br> - Flame Animated - OFF, ON<br> - Smoke Animated - OFF, ON<br> - Void Particles - OFF, ON<br> - Water Particles - OFF, ON<br> - Rain Splash - OFF, ON<br> - Portal Particles - OFF, ON<br> - Dripping Water/Lava
+                    - OFF, ON<br> - Terrain Animated - OFF, ON<br> - Items Animated - OFF, ON<br>
+                </li>
+                <li>
+                    <strong>Fast Texturepack Switching</strong><br> Switch the current Texturepack without leaving the world<br>
+                </li>
+                <li>
+                    <strong>Fullscreen Resolution</strong><br> Configurable fullscreen resolution<br>
+                </li>
+                <li>
+                    <strong>Debug</strong><br> - Fast Debug Info - removes lagometer from debug screen<br> - Debug Profiler - removes profiler from debug screen<br>
+                </li>
+                <li>
+                    <strong>Time Control</strong><br> Default, Day Only or Night Only - works in only in Creative mode<br>
+                </li>
+                <li>
+                    <strong>Autosave</strong><br> - Configurable Autosave interval<br> - A fix for the famous Lag Spike of Death
+                </li>
+            </ul>
+            <div class="footer">
+                <a href="privacy">Privacy</a> &nbsp;
+                <a href="refund">Refund</a> &nbsp;
+                <a href="contact">Contact</a>
+            </div>
