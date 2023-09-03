@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora Exemplo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>
+      Projeto Calculadora
+    </h1>
+
+    <p>Primeiro número</p>
+    <input type="number" name="x" id="x" />
+    <p>Segundo número</p>
+    <input type="number" name="y" id="y" />
+
+    <select name="operador" id="operador">
+      <option value="+">Adição</option>
+      <option value="-">Subtração</option>
+      <option value="*">Multiplicação</option>
+      <option value="**">Potenciação</option>
+      <option value="/">Divisão</option>
+      <option value="%">Resto da Divisão</option>
+    </select>
+
+    <button
+      onclick="calcularResultado(parseFloat(document.querySelector('#x').value),
+                                       parseFloat(document.querySelector('#y').value),
+                                       document.querySelector('#operador').value)"
+    >
+      Calcular
+    </button>
+
+    <p>Resultado</p>
+    <input type="number" name="resultado" id="resultado" />
+  </body>
+</html>
